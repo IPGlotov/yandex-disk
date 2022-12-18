@@ -1,1 +1,10 @@
-services:  yandex-disk:    container_name: yandex-disk    image: ipglotov/yandex-disk    volumes:      - ~/yandex-disk/config:/root/.config/yandex-disk      - ~/yandex-disk/data:/y    environment:      EXCLUDE: "/y/Загрузки,/y/Скриншоты"    restart: always
+services:
+  yandex-disk:
+    container_name: yandex-disk
+    image: ipglotov/yandex-disk
+    volumes:
+      - ~/yandex-disk/config:/root/.config/yandex-disk
+      - ~/yandex-disk/data:/y
+    environment:
+      EXCLUDE: "/y/Р—Р°РіСЂСѓР·РєРё,/y/РЎРєСЂРёРЅС€РѕС‚С‹"
+    restart: always
