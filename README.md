@@ -50,3 +50,4 @@ docker push ipglotov/yandex-disk
 ## References
  - Based on images from [ruslanys](https://github.com/ruslanys/docker-yandex.disk) and [WorldException](https://github.com/WorldException/docker-yandex-disk).
  - [Yandex documentation](https://yandex.ru/support/disk/cli-clients.html#cli-daemon).
+ - DockerHub [image link](https://hub.docker.com/repository/docker/ipglotov/yandex-disk) for the source code.
