@@ -15,6 +15,7 @@ OAuth-token file `~/yandex-disk/config/passwd` is generated.
 ### Edit docker-compose.yml
 Environment variables:
  - EXCLUDE - folders to be excluded from synchronization
+ - READONLY - read-only mode
 
 ### Run daemon
 ```shell
