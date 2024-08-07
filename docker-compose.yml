@@ -7,4 +7,5 @@ services:
       - ~/yandex-disk/data:/y
     environment:
       EXCLUDE: "/y/Загрузки,/y/Скриншоты"
+      READONLY:
     restart: always
