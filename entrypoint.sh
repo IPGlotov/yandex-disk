@@ -17,7 +17,7 @@ token)
     yandex-disk token --auth=$TOKEN
     ;;
 start)
-    yandex-disk start --no-daemon --dir=/y --auth=$TOKEN ${excludedirs} #${OPTIONS}
+    yandex-disk start --no-daemon --dir=/y --auth=$TOKEN ${excludedirs} ${readonly} #${OPTIONS}
     ;;
 *)
     "$@"
